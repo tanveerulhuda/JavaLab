@@ -31,6 +31,7 @@ public class Demo {
         System.out.println(d1.x);
         
         Animal a1 = new Animal(0);
+        a1.sleeping();
     
 }
 }
