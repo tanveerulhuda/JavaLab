@@ -1,3 +1,5 @@
+//------First-----
+
 package OOpsWithDurgesh;
 
 class Student {
@@ -9,16 +11,19 @@ class Student {
     
 //---constructor-----
     public Student(){
+        this(98,"hfhsj","hhh");
         System.out.println("Creating object, non-P");
         
     }
 
 //---constructor 2, we can create multiple constructor in a same class called constructor overloading
-public Student(int i, String n, String c){
+public Student(int i,String n,String c){
     studentid = i;
     studentName =n;
     studentCity = c;
     System.out.println("paramitrized constructor");
+
+    
 }   
     
 
@@ -29,7 +34,7 @@ public Student(int i, String n, String c){
     }
     public void study(float f){
 
-    }
+    } //method overloading
 
     public void showFullDetails(){
         System.out.println("Student name "+studentName);
@@ -42,9 +47,9 @@ public Student(int i, String n, String c){
 
 
 
-    /*public static void main(String[] args) {  //-----MAin method------
-        //Student st1;
-        //st1 = new Student();
+    public static void main(String[] args) {  //-----MAin method------
+        // Student st1;
+        // st1 = new Student();
         
         Student st1 = new Student();   //-------Object 1-----
 //----Printing Atrributes of Class Student
@@ -64,7 +69,8 @@ public Student(int i, String n, String c){
         st2.studentid = 002;
 
         st2.showFullDetails();
-    }*/
+
+    }
 
     
     

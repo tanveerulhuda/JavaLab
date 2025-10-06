@@ -1,3 +1,5 @@
+//  Demo
+
 package OOpsWithDurgesh;
 
 public class Demo {
@@ -16,7 +18,7 @@ public class Demo {
         st1.showFullDetails();
 
         //-----------------Taking Object two-----------------------------
-        Student st2 = new Student(12,"Amit","Dehradon");
+        Student st2 = new Student(12, "Shayam","Mumbai");
         System.out.println("-------------------");
         // st2.studentName = "Aman";
         // st2.studentCity = "Kolkata";
